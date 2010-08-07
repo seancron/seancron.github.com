@@ -32,8 +32,13 @@ html {
   line-height: 1em;
 }
 
-a {
-  color: inherit;
+#contents a {
+  color: #121212;
+  text-decoration: none;
+}
+
+#header a {
+  color: #333;
   text-decoration: none;
 }
 
