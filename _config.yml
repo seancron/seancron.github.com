@@ -1,0 +1,20 @@
+# Jekyll Configuration
+
+url: http://localhost:4000 #XXX
+title: Sean Cronin #XXX
+description: Tag line #XXX
+author: Sean Cronin #XXX
+email: seancron@gmail.com #XXX
+analytics_id: #Google Analytics ID : UA-xxx-xxx  
+
+auto: false
+lsi: true
+pygments: true
+server_port: 4000
+markdown: maruku
+
+maruku:
+  use_tex: false
+  use_divs: false
+  png_dir: img/tex
+  png_url: /img/tex

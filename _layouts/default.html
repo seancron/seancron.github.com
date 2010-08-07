@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>{{ page.title }}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}</title>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:regular|Droid+Sans:regular" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <h1>{{ page.title }}</h1>
-
-    {{ content }}
+    <div class="container_12">
+      <div id="header" class="grid_12"> 
+        {% if site.title %}
+          <h1><a href="{{site.url}}">{{site.title}}</a></h1>
+	{% endif %}
+      </div>
+      <div class="clear"></div>
+      <div id="contents" class="grid_10 prefix_1 suffix_1">
+        <h2><a href="#">About</a></h2>
+        <h2><a href="#">Blog</a></h2>
+        <h2><a href="#">Contact</a></h2>
+        <h2><a href="#">Projects</a></h2>
+      </div>
+      <div class="clear"></div>
+    </div>
   </body>
 </html>
