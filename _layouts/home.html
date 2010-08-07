@@ -18,7 +18,7 @@
       <div id="contents" class="grid_10 prefix_1 suffix_1">
         <ul>
           {% for item in content %}
-            <li><h2><a href="#">{{ item }}</a></h2></li> 
+            <li><h2><a href="#">{{ item | strip_newlines }}</a></h2></li> 
           {% endfor %}
         </ul>
       </div>
