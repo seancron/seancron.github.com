@@ -17,10 +17,9 @@
       <div class="clear"></div>
       <div id="contents" class="grid_10 prefix_1 suffix_1">
         <ul>
-          <li><h2><a href="#">About</a></h2></li>
-          <li><h2><a href="#">Blog</a></h2></li>
-          <li><h2><a href="#">Contact</a></h2></li>
-          <li><h2><a href="#">Projects</a></h2></li>
+          {% for item in content %}
+            <li><h2><a href="#">{{ item }}</a></h2></li> 
+          {% endfor %}
         </ul>
       </div>
       <div class="clear"></div>
