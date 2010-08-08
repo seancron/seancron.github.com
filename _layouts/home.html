@@ -30,11 +30,7 @@
       </div>
       <div class="clear"></div>
       <div id="contents" class="grid_10 prefix_1 suffix_1">
-        <ul>
-          {% for item in content %}
-            <li><h2><a href="#">{{ item | strip_newlines }}</a></h2></li> 
-          {% endfor %}
-        </ul>
+        {{ content }}
       </div>
       <div class="clear"></div>
     </div>
