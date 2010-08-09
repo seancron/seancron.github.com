@@ -29,8 +29,12 @@
 	{% endif %}
       </div>
       <div class="clear"></div>
-      <div id="navigation" class="grid_10 prefix_1 suffix_1 bignavigation">
-        {{ content }} 
+      <div id="navigation" class="grid_10 prefix_1 suffix_1">
+        {% comment %} {% include navigation.html %} {% endcomment %}
+      </div>
+      <div class="clear"></div>
+      <div id="content" class="grid_10 prefix_1 suffix_1">
+        {{ content }}
       </div>
       <div class="clear"></div>
     </div>

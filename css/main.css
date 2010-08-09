@@ -5,21 +5,47 @@ html {
   font-size: 62.5%;
 }
 
-#contents {
-  border-style: solid;
-  border-top-width: 1px;
+p {
+  color: #121212;
+  font-family: 'Droid Sans', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+h2 {
+  font-family: 'Droid Serif', serif;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  /*margin-bottom: 1.5em; */
+  margin-top: 1.5em;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #111
+  font-family: 'Droid Serif', serif;
+  font-size: 2.1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.bignavigation {
   color: #121212;
   font-family: 'Droid Sans', 'Helvetica', 'Arial', sans-serif;
   font-size: 4.5em;
   /* letter-spacing: 0.5px; */
   line-height: 1.4em;
   margin-top: 10px;
-  padding-top: 60px;
+  padding-top: 1em;
   text-shadow: 1px 1px 1px #aaa;
   text-decoration: none;
 }
 
 #header {
+  border-bottom-width: 1px;
+  border-style: solid;
   color: #333;
   font-family: 'Droid Serif', serif;
   font-size: 5em;
@@ -33,7 +59,7 @@ html {
   line-height: 1em;
 }
 
-#contents a {
+.bignavigation a {
   color: #121212;
   font-weight: 500;
   text-decoration: none;
@@ -48,6 +74,7 @@ html {
 body {
   background: #F5F5F5;
   padding-top: 2.5em;
+  padding-bottom: 2.5em;
 }
 
 .container_12 {
