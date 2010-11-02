@@ -12,6 +12,7 @@ lsi: true
 pygments: true
 server_port: 4000
 markdown: maruku
+permalink: /blog/:title
 
 maruku:
   use_tex: false
