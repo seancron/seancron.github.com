@@ -5,6 +5,7 @@ html {
   font-size: 62.5%;
 }
 
+
 p {
   color: #121212;
   font-family: 'Droid Sans', 'Helvetica', 'Arial', sans-serif;
@@ -13,6 +14,20 @@ p {
   margin-bottom: 1em;
   margin-top: 1em;
 }
+
+ul {
+  list-style: disc outside none;
+  margin-left: 4em;
+}
+
+li {
+  color: #121212;
+  font-family: 'Droid Sans', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin-bottom: 0em;
+  margin-top: 0em;
+} 
 
 h2 {
   font-family: 'Droid Serif', serif;
