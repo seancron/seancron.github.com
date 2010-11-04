@@ -1,6 +1,6 @@
 ---
 title: November Launch Month - Day 1
-layout: default
+layout: post
 ---
 
 ## November Launch Month - Day 1
