@@ -2,7 +2,6 @@
 title: November Launch Month - Day 2
 layout: post
 ---
-## November Launch Month - Day 2
 
 Not that much to report today. With a midterm to study for and a problem set to complete, I didn't have much time to work on my app. I have however, set a schedule by which I want to follow.
 

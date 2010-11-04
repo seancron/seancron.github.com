@@ -3,8 +3,6 @@ title: November Launch Month - Day 1
 layout: post
 ---
 
-## November Launch Month - Day 1
-
 I am going to launch an Android application as part of [November Launch Month.](http://news.ycombinator.com/item?id=1773398 "November Launch Month")
 
 Today, I spent the day deliberating over what I want my app to do, and gathering the resources that I'll need for this month-long sprint (books, software, caffeine, etc.). I'm using [The Android Developer's Cookbook: Building Applications with the Android SDK](http://www.amazon.com/Android-Developers-Cookbook-Building-Applications/dp/0321741234 "The Android Developer's Cookbook: Building Applications with the Android SDK") and [The Developer's Guide](http://developer.android.com/guide/index.html "The Developer's Guide") to get me going with Android quickly.
