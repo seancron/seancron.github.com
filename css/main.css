@@ -15,6 +15,11 @@ p {
   margin-top: 1em;
 }
 
+.bignavigation ul {
+  list-style: none;
+  margin-left: 0em;
+}
+
 ul {
   list-style: disc outside none;
   margin-left: 4em;
@@ -48,9 +53,10 @@ h3 {
 .bignavigation {
   color: #121212;
   font-family: 'Droid Sans', 'Helvetica', 'Arial', sans-serif;
-  font-size: 4.5em;
+  font-size: 3.2em;
   line-height: 1.4em;
   margin-top: 10px;
+  margin-left: 0px;
   padding-top: 1em;
   text-shadow: 1px 1px 1px #aaa;
   text-decoration: none;
