@@ -32,13 +32,13 @@
 
         <script> 
             var video = document.getElementById('movie');
-            video.onclick = function() {
-                if (v.paused) {
-                    v.play();
+            video.addEventListener('click', function() {
+                if (video.paused) {
+                    video.play();
                 } else {
-                    v.pause();
+                    video.pause();
                 }
-            };
+            });
         </script> 
 
         The content of the document......
