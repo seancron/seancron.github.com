@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <meta charset=utf-8> 
+        <title>Title of the document</title> 
+    </head> 
+
+    <body>
+        <video id="movie" width="320" height="240" preload controls>
+            <source src="http://www.canausa.net/html5/Alumni_Test.webm" type='video/webm; codecs="vp8, vorbis"' /> 
+            <source src="http://www.canausa.net/html5/Alumni_Test.ogv" type='video/ogg; codecs="theora, vorbis"' /> 
+            <source src="http://www.canausa.net/html5/Alumni_Test.mp4" /> 
+            <object id="player" type="application/x-shockwave-flash" data="player.swf" name="player" width="320" height="240"> 
+                <param name="movie" value="player.swf" /> 
+                <param name="allowfullscreen" value="true" /> 
+                <param name="allowscriptaccess" value="always" /> <!-- Not sure if this is need. -->
+                <param name="flashvars" value='config={"clip": {"url": "http://www.canausa.net/html5/Alumni_Test.mp4", "autoplay":false, "autoBuffering":true}}' />
+            </object> 
+        </video> 
+
+        <script> 
+            var video = document.getElementById('movie');
+            video.onclick = function() {
+                if (v.paused) {
+                    v.play();
+                } else {
+                    v.pause();
+                }
+            };
+        </script> 
+
+        The content of the document......
+    </body> 
+
+</html>
